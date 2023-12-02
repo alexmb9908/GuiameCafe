@@ -62,7 +62,7 @@ fun HomePopularPlaceItem(
 @Composable
 fun HomePopularPlaceItemPreview() {
     HomePopularPlaceItem(
-        place = Place("Argentina", "Buenos Aires", Region.AMERICA, ""),
+        place = Place("México", "México City", Region.MEXICO, ""),
         onPlaceClick = {}
     )
 }

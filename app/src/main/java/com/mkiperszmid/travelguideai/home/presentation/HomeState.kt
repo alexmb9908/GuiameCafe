@@ -10,7 +10,7 @@ data class HomeState(
     val filterSettings: HomeFilterSettings = HomeFilterSettings(),
     val filterSettingsBackup: HomeFilterSettings = filterSettings,
     val chatReply: String? = null,
-    val selectedRegion: Region = Region.TODAS,
+    val selectedRegion: Region = Region.MEXICO,
     val popularPlaces: List<Place> = emptyList(),
     val popularPlacesBackup: List<Place> = popularPlaces,
     val isLoading: Boolean = false

@@ -8,9 +8,10 @@ data class Place(
 )
 
 enum class Region {
-    TODAS,
+    MEXICO
+    /*TODAS,
     AMERICA,
     ASIA,
     EUROPA,
-    OCEANIA
+    OCEANIA*/
 }

@@ -37,12 +37,12 @@ class HomeRepositoryImpl(
     override suspend fun getPopularPlaces(): Result<List<Place>> {
         return Result.success(
             listOf(
-                Place("USA", "New York", Region.AMERICA, "https://images.pexels.com/photos/2224861/pexels-photo-2224861.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
-                Place("Argentina", "Salta", Region.AMERICA, "https://images.pexels.com/photos/13430634/pexels-photo-13430634.jpeg?auto=compress"),
-                Place("España", "Barcelona", Region.EUROPA, "https://www.fodors.com/wp-content/uploads/2022/03/Hero-UPDATEBarcelona-iStock-1320014700-1.jpg"),
-                Place("Australia", "Sydney", Region.OCEANIA, "https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1577545161018-1F9Z9ZZQG9JO2O4WCWQX/keith-zhu-qaNcz43MeY8-unsplash+%281%29.jpg"),
-                Place("Japon", "Tokio", Region.ASIA, "https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/japon_tokio_shibuya_shutterstock_666197236_f11photo_shutterstock.jpg"),
-                Place("Italia", "Roma", Region.EUROPA, "https://www.thediaryofanomad.com/wp-content/w3-webp/uploads/2020/11/rome-for-3-days-in-rome-itinerary-vatican-dome-view.jpgw3.webp")
+                Place("", "Café expreso", Region.MEXICO, "https://cdn.pixabay.com/photo/2013/11/05/23/55/coffee-206142_960_720.jpg"),
+                Place("", "Café americano", Region.MEXICO, "https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_960_720.jpg"),
+                Place("", "Café mexicano", Region.MEXICO, "https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_960_720.jpg"),
+                Place("", "Café capuchino", Region.MEXICO, "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_960_720.jpg"),
+                Place("", "Postres Y café", Region.MEXICO, "https://cdn.pixabay.com/photo/2019/11/23/20/04/coffee-4648041_960_720.jpg"),
+                Place("", "Granos de café tostados", Region.MEXICO, "https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_960_720.jpg")
             )
         )
     }

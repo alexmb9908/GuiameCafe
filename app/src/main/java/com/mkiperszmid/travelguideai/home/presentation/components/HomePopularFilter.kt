@@ -40,7 +40,7 @@ fun HomePopularFilter(
 @Composable
 fun HomePopularFilterPreview() {
     HomePopularFilter(
-        selectedRegion = Region.OCEANIA,
+        selectedRegion = Region.MEXICO,
         {}
     )
 }

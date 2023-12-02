@@ -51,7 +51,7 @@ class HomeViewModel @Inject constructor(private val repository: HomeRepository) 
     fun onRegionSelect(region: Region) {
         state = state.copy(
             selectedRegion = region,
-            popularPlaces = if (region != Region.TODAS) state.popularPlacesBackup.filter { it.region == region } else state.popularPlacesBackup
+            popularPlaces = if (region != Region.MEXICO) state.popularPlacesBackup.filter { it.region == region } else state.popularPlacesBackup
         )
     }
 
