@@ -16,8 +16,8 @@ class HomeRepositoryImpl(
     ): Result<String> {
         return try {
             var places = ""
-            if (settings.restaurant) places += "Restaurantes, "
-            if (settings.museums) places += "Museos, "
+            if (settings.restaurant) places += "Cafeterias, "
+            if (settings.museums) places += "Reposterias, "
 
             val placesToVisit = if (places.isNotEmpty()) "y quiero visitar: $places" else ""
 
